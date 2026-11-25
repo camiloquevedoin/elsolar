@@ -405,7 +405,8 @@ svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width:
   .flavor__bg { background-attachment: scroll; }
   .story__grid, .delivery, .visit, .guarapo__grid, .celebra__grid { grid-template-columns: 1fr; }
   .kids { grid-template-columns: 1fr; }
-  .kids__img { height: 240px; }
+  .kids__img { height: auto; min-height: 0; aspect-ratio: 4 / 3; }
+  .kids__img img { object-position: 70% center; }
   .gallery { grid-auto-rows: 110px; }
   .guarapo__imgs { order: 2; }
   .story__img { max-width: 440px; }

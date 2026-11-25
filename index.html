@@ -21,7 +21,7 @@
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "El Solar – Cocina de Autor",
-    "image": "img/hero-barril.jpg",
+    "image": "https://elsolarcocina.pages.dev/img/hero-barril.jpg",
     "servesCuisine": ["Colombiana", "Cocina de autor"],
     "priceRange": "$$",
     "telephone": "+57 315 516 5140",
@@ -50,11 +50,12 @@
   <header class="header" id="top">
     <div class="header__inner">
       <a href="#top" class="header__logo" aria-label="El Solar – Cocina de Autor, inicio">
-        <img src="img/logo-amarillo.png" alt="El Solar – Cocina de Autor, Est. 2023" width="120" height="120">
+        <img src="img/logo-amarillo.webp" alt="El Solar – Cocina de Autor, Est. 2023" width="120" height="120">
       </a>
       <nav class="nav" id="nav" aria-label="Principal">
         <a href="#momentos">Para ti</a>
         <a href="#menu">Nuestro menú</a>
+        <a href="#celebraciones">Celebraciones</a>
         <a href="#historia">Nuestra historia</a>
         <a href="#domicilios">Domicilios</a>
         <a href="#visitanos">Visítanos</a>
@@ -85,7 +86,8 @@
           </div>
         </div>
         <figure class="hero__plate">
-          <img src="img/pacifico.jpg" alt="Plato de la casa con salsa criolla, arroz y plátano" width="920" height="1359">
+          <img src="img/pacifico.webp" alt="Encocado de salmón con arroz y plátano, especial del Día de la Madre 2026" width="920" height="1359">
+          <figcaption>Especial de temporada · <em>Encocado de salmón</em></figcaption>
         </figure>
       </div>
     </section>
@@ -118,7 +120,7 @@
         </header>
         <div class="moments">
           <article class="moment reveal">
-            <img src="img/desayuno.jpg" alt="Desayuno con huevos fritos y fruta" loading="lazy" width="1053" height="1400">
+            <img src="img/desayuno.webp" alt="Desayuno con huevos fritos y fruta" loading="lazy" width="1053" height="1400">
             <div class="moment__body">
               <span class="moment__time">Desde las 8:00 a. m.</span>
               <h3>Desayunos</h3>
@@ -126,7 +128,7 @@
             </div>
           </article>
           <article class="moment reveal">
-            <img src="img/fiambre.jpg" alt="Fiambre valluno sobre hoja de plátano con pollo, huevo y chorizo" loading="lazy" width="963" height="1280">
+            <img src="img/fiambre.webp" alt="Fiambre valluno sobre hoja de plátano con pollo, huevo y chorizo" loading="lazy" width="963" height="1280">
             <div class="moment__body">
               <span class="moment__time">Todos los días</span>
               <h3>Almuerzo del día</h3>
@@ -134,7 +136,7 @@
             </div>
           </article>
           <article class="moment reveal">
-            <img src="img/bowl-zero.jpg" alt="Bowl Zero con pollo al barril, huevo y parmesano" loading="lazy" width="963" height="1280">
+            <img src="img/bowl-zero.webp" alt="Bowl Zero con pollo al barril, huevo y parmesano" loading="lazy" width="963" height="1280">
             <div class="moment__body">
               <span class="moment__time">Desde 2025</span>
               <h3>Bowls con alma</h3>
@@ -142,7 +144,7 @@
             </div>
           </article>
           <article class="moment reveal">
-            <img src="img/chicharron.jpg" alt="Chicharrón dorado recién salido del barril" loading="lazy" width="1053" height="1400">
+            <img src="img/chicharron.webp" alt="Chicharrón dorado recién salido del barril" loading="lazy" width="1053" height="1400">
             <div class="moment__body">
               <span class="moment__time">Para compartir</span>
               <h3>Del barril</h3>
@@ -166,7 +168,7 @@
 
         <div class="featured">
           <article class="dish reveal">
-            <div class="dish__img"><img src="img/barrilada.jpg" alt="Barrilada El Solar" loading="lazy" width="1053" height="1400"></div>
+            <div class="dish__img"><img src="img/barrilada.webp" alt="Barrilada El Solar" loading="lazy" width="1053" height="1400"></div>
             <div class="dish__body">
               <span class="tag">Del barril</span>
               <h3>Barrilada El Solar <span class="price">$32.000</span></h3>
@@ -174,7 +176,7 @@
             </div>
           </article>
           <article class="dish reveal">
-            <div class="dish__img"><img src="img/paisa.jpg" alt="Bowl Paisa Pues" loading="lazy" width="963" height="1280"></div>
+            <div class="dish__img"><img src="img/paisa.webp" alt="Bowl Paisa Pues" loading="lazy" width="963" height="1280"></div>
             <div class="dish__body">
               <span class="tag">Criollos y con sabor</span>
               <h3>Bowl Paisa Pues <span class="price">$27.000</span></h3>
@@ -182,7 +184,7 @@
             </div>
           </article>
           <article class="dish reveal">
-            <div class="dish__img"><img src="img/mar-y-tierra.jpg" alt="Bowl Mar y Tierra: fetuccine con camarones, pollo y champiñones" loading="lazy" width="848" height="478"></div>
+            <div class="dish__img"><img src="img/mar-y-tierra.webp" alt="Bowl Mar y Tierra: fetuccine con camarones, pollo y champiñones" loading="lazy" width="848" height="478"></div>
             <div class="dish__body">
               <span class="tag">Del mar y el Pacífico</span>
               <h3>Bowl Mar y Tierra <span class="price">$32.000</span></h3>
@@ -190,6 +192,15 @@
             </div>
           </article>
         </div>
+
+        <article class="kids reveal">
+          <div class="kids__img"><img src="img/infantil.webp" alt="Menú infantil con pollo apanado, arroz y salsa de tomate" loading="lazy" width="963" height="1280"></div>
+          <div class="kids__body">
+            <span class="tag">Para los más pequeños</span>
+            <h3>Menú Infantil · Tornados <span class="price">$20.000</span></h3>
+            <p>Un plato a la medida de los niños, preparado con el mismo cariño de siempre. Para que toda la familia almuerce feliz en El Solar.</p>
+          </div>
+        </article>
 
         <div class="carta">
           <div class="carta__col">
@@ -216,6 +227,10 @@
               <li><span class="carta__name">Bowl Mar y Tierra</span><span class="carta__dots"></span><span class="carta__price">$32k</span><p>Fetuccine con camarones, pollo y champiñones salteados, parmesano, mantequilla y pan de ajo.</p></li>
               <li><span class="carta__name">Bendito Encocao'</span><span class="carta__dots"></span><span class="carta__price">$30k</span><p>Camarones en leche de coco con arroz, patacones y ensalada. Sabe a mar, coco y gloria.</p></li>
             </ul>
+            <h3 class="carta__title">Para los más pequeños</h3>
+            <ul>
+              <li><span class="carta__name">Menú Infantil · Tornados</span><span class="carta__dots"></span><span class="carta__price">$20k</span><p>Porción a la medida de los niños.</p></li>
+            </ul>
           </div>
         </div>
 
@@ -231,8 +246,8 @@
     <section class="section section--cream guarapo" id="guarapo">
       <div class="container guarapo__grid">
         <div class="guarapo__imgs">
-          <figure class="reveal"><img src="img/guarapo.jpg" alt="Botellas de Guarapo de Antonio Gómez, sabores mora y piña" loading="lazy" width="1053" height="1400"></figure>
-          <figure class="reveal"><img src="img/guarapo-mural.jpg" alt="Guarapo de Antonio Gómez en una mesa de El Solar" loading="lazy" width="1050" height="1400"></figure>
+          <figure class="reveal"><img src="img/guarapo.webp" alt="Botellas de Guarapo de Antonio Gómez, sabores mora y piña" loading="lazy" width="1053" height="1400"></figure>
+          <figure class="reveal"><img src="img/guarapo-mural.webp" alt="Guarapo de Antonio Gómez en una mesa de El Solar" loading="lazy" width="1050" height="1400"></figure>
         </div>
         <div class="guarapo__text">
           <p class="eyebrow">Bebida de la casa</p>
@@ -263,11 +278,43 @@
       </div>
     </section>
 
+
+    <!-- ============ CELEBRACIONES ============ -->
+    <section class="section section--cream celebra" id="celebraciones">
+      <div class="container">
+        <div class="celebra__grid">
+          <div class="celebra__text">
+            <p class="eyebrow">Celebraciones</p>
+            <h2>Tu celebración, <em>a nuestra mesa.</em></h2>
+            <p class="section__sub">Cumpleaños, aniversarios, reuniones de amigos, de familia o de trabajo. Tú traes la alegría; nosotros ponemos la mesa, la sazón y la atención.</p>
+            <ul class="checks checks--dark">
+              <li>Cumpleaños y aniversarios</li>
+              <li>Grupos de familia y amigos</li>
+              <li>Almuerzos de trabajo</li>
+              <li>Tu mesa reservada y lista cuando llegues</li>
+            </ul>
+            <div class="celebra__actions">
+              <a href="https://forms.gle/SmC2cj7zEBFD3kPHA" target="_blank" rel="noopener" class="btn btn--yellow btn--lg">Reserva tu mesa <span aria-hidden="true">→</span></a>
+              <a href="https://wa.me/573155165140?text=Hola%20El%20Solar%2C%20quiero%20celebrar%20con%20ustedes" target="_blank" rel="noopener" class="btn btn--outline btn--lg">Cuéntanos tu plan</a>
+            </div>
+          </div>
+          <div class="gallery">
+            <figure class="gallery__a reveal"><img src="img/celebra-brindis.webp" alt="Grupo brindando en una celebración en El Solar" loading="lazy" width="1053" height="1400"></figure>
+            <figure class="gallery__b reveal"><img src="img/celebra-pareja.webp" alt="Pareja celebrando con globos en una mesa reservada" loading="lazy" width="1053" height="1400"></figure>
+            <figure class="gallery__c reveal"><img src="img/celebra-vela.webp" alt="Cumpleaños con vela y globo frente al mural de El Solar" loading="lazy" width="1053" height="1400"></figure>
+            <figure class="gallery__d reveal"><img src="img/celebra-amigas.webp" alt="Grupo de amigas compartiendo en una mesa larga" loading="lazy" width="1053" height="1400"></figure>
+            <figure class="gallery__e reveal"><img src="img/celebra-mural.webp" alt="Familia celebrando junto al mural del tucán" loading="lazy" width="1053" height="1400"></figure>
+            <figure class="gallery__f reveal"><img src="img/celebra-mesa.webp" alt="Mesa larga de familia en El Solar" loading="lazy" width="1053" height="1400"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ HISTORIA · ¿Puedo confiar? ============ -->
     <section class="section section--ivory story" id="historia">
       <div class="container story__grid">
         <figure class="story__img reveal">
-          <img src="img/carbon.jpg" alt="Carbón encendido dentro del barril de El Solar" loading="lazy" width="1054" height="1400">
+          <img src="img/carbon.webp" alt="Carbón encendido dentro del barril de El Solar" loading="lazy" width="1054" height="1400">
           <figcaption>El barril, donde empezó todo.</figcaption>
         </figure>
         <div class="story__text">
@@ -301,8 +348,8 @@
           <a href="https://pulso-negocio.onrender.com/t/elsolarcocina" target="_blank" rel="noopener" class="btn btn--yellow btn--lg">Hacer mi pedido <span aria-hidden="true">→</span></a>
         </div>
         <div class="delivery__imgs">
-          <figure class="reveal"><img src="img/cocina.jpg" alt="Bowls emplatados en la cocina listos para salir" loading="lazy" width="963" height="1280"><figcaption>En la cocina</figcaption></figure>
-          <figure class="reveal"><img src="img/empaque-kraft.jpg" alt="Almuerzo en caja por compartimentos: proteína, arroz y ensalada separados" loading="lazy" width="1400" height="1054"><figcaption>En tu casa</figcaption></figure>
+          <figure class="reveal"><img src="img/cocina.webp" alt="Bowls emplatados en la cocina listos para salir" loading="lazy" width="963" height="1280"><figcaption>En la cocina</figcaption></figure>
+          <figure class="reveal"><img src="img/empaque-kraft.webp" alt="Almuerzo en caja por compartimentos: proteína, arroz y ensalada separados" loading="lazy" width="1400" height="1054"><figcaption>En tu casa</figcaption></figure>
         </div>
       </div>
     </section>
@@ -335,7 +382,7 @@
           <p class="fine">¿Ya nos visitaste? <a href="https://forms.gle/9xxJ6ZcchDzkDE3S7" target="_blank" rel="noopener">Cuéntanos tu experiencia</a>.</p>
         </div>
         <div class="visit__media">
-          <figure class="visit__photo reveal"><img src="img/salon-mural.jpg" alt="Salón de El Solar con mural de tucán y plantas" loading="lazy" width="1053" height="1400"></figure>
+          <figure class="visit__photo reveal"><img src="img/salon-mural.webp" alt="Salón de El Solar con mural de tucán y plantas" loading="lazy" width="1053" height="1400"></figure>
           <div class="visit__map reveal">
             <iframe title="Mapa de El Solar en Florida, Valle" src="https://www.google.com/maps?q=Carrera+14+%237-30,+Florida,+Valle+del+Cauca,+Colombia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -347,7 +394,7 @@
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
     <div class="container footer__grid">
-      <img src="img/logo-amarillo.png" alt="El Solar – Cocina de Autor" class="footer__logo" width="120" height="120" loading="lazy">
+      <img src="img/logo-amarillo.webp" alt="El Solar – Cocina de Autor" class="footer__logo" width="120" height="120" loading="lazy">
       <div class="footer__col">
         <p>Carrera 14 # 7-30, B/ La Cabaña<br>Florida, Valle del Cauca</p>
         <p>Pedidos: <a href="tel:+573155165140">315 516 5140</a></p>
